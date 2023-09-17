@@ -1,0 +1,175 @@
+@font-face {
+	font-family: 'JetBrainsMono-SemiBold';
+	src: url(./FONTS/JetBrainsMono-SemiBold.ttf);
+}
+
+* {
+	margin: 0%;
+	font-family: 'JetBrainsMono-SemiBold';
+}
+
+body {
+	width: 21cm;
+	height: 29.7cm;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#content-all {
+	display: flex;
+}
+
+#sidebar {
+	width:300px;
+	height: 29.7cm;
+	background-color:#2f3236;
+	float: left;
+}
+
+#profile-image {
+	width: 250px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+}
+
+#profile-image > img {
+	width: 250px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px rgb(94, 94, 94);
+}
+
+#profile-name {
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline;
+	color: lightgrey;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#profile-list {
+	padding-left: 20px;
+	color: lightgrey;
+	list-style: none;
+}
+
+#profile-list > li {
+	font-size: 20px;
+	list-style: none;
+}
+
+#profile-list > li > ul {
+	padding-left: 10px;
+	font-size: 15px;
+	list-style: none;
+}
+
+#profile-list > li > ul > li {
+	font-size: 15px;
+	color: grey;
+}
+
+.profile-data-long {
+	font-size: 13px;
+}
+
+#profile-list ul {
+	padding-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	text-shadow: 	0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.right-data h1 {
+	font-size: 45px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.right-data p {
+	padding-left: 20px;
+	margin-right: 20px;
+}
+
+.right-data > hr {
+	height: 2px;
+	background-color: grey;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 60%;
+}
+
+#presentation-text {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#experience-text {
+/*	background-color: indianred;*/
+}
+
+#experience-list {
+	padding-left: 30px;
+}
+
+.li_first {
+	font-size: 17px;
+	color: grey;
+}
+
+.li_second {
+	font-size: 17px;
+	color: darkgray;
+}
+
+.li_third {
+	font-size: 17px;
+	color: lightgrey;
+}
+
+#experience-list ul {
+	padding-bottom: 15px;
+}
+
+#experience-list > li {
+	font-size: 20px;
+	list-style: none;
+}
+
+#experience-list > li > ul {
+	padding-left: 10px;
+	font-size: 15px;
+	list-style: none;
+}
+
+#experience-list > li:last-child {
+	padding-bottom: 20px;
+}
+
+#academyc-list {
+	list-style: none;
+}
+
+#academyc-list ul {
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+.academyc-titles {
+	font-size: 20px;
+}
+
+.academyc-items {
+	font-size: 17px;
+	list-style: none;
+	color: grey;
+}
